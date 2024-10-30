@@ -32,7 +32,7 @@ namespace ChipSecuritySystem
                     // Show sequence
                     foreach (var c in usedChips)
                     {
-                        Console.WriteLine("[" + c + "]");
+                        Console.Write("[" + c + "]");
                     }
                     Console.WriteLine("\n");
                     Console.WriteLine("Press Enter key to continue...\n");
@@ -44,7 +44,7 @@ namespace ChipSecuritySystem
             }
 
 
-            Console.WriteLine(Constants.ErrorMessage + "!\n");
+            Console.WriteLine(Constants.ErrorMessage + "\n");
             Console.ReadLine();
         }
 
